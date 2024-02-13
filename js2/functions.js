@@ -1,6 +1,4 @@
-
-//função para abrir modal página de projetos
-    abrirJanela();
+abrirJanela();
     function abrirJanela(){
     
       $('.btn').click(function(e){
@@ -56,53 +54,51 @@
 
 //comferindo cada conteúdo do modal
       
-      $( "a" ).click(function(event) {
+      $( ".a1" ).click(function(event) {
         if ($( this ).is( ".btn2" ) ) {
             $('.bg2').show();
         }
         event.preventDefault();
       });
 
-      $( "a" ).click(function(event) {
+      $( ".a2" ).click(function(event) {
         if ($( this ).is( ".btn3" ) ) {
             $('.bg3').show();
         }
         event.preventDefault();
       });
 
-      $( "a" ).click(function(event) {
+      $( ".a3" ).click(function(event) {
         if ($( this ).is( ".btn4" ) ) {
             $('.bg4').show();
         }
         event.preventDefault();
       });
 
-      $( "a" ).click(function(event) {
+      $( ".a4" ).click(function(event) {
         if ($( this ).is( ".btn5" ) ) {
             $('.bg5').show();
         }
         event.preventDefault();
       });
 
-      $( "a" ).click(function(event) {
+      $( ".a5" ).click(function(event) {
         if ($( this ).is( ".btn6" ) ) {
             $('.bg6').show();
         }
         event.preventDefault();
       });
 
-      $( "a" ).click(function(event) {
+      $( ".a6" ).click(function(event) {
         if ($( this ).is( ".btn7" ) ) {
             $('.bg7').show();
         }
         event.preventDefault();
       });
 
-      $( "a" ).click(function(event) {
+      $( ".a7" ).click(function(event) {
         if ($( this ).is( ".btn8" ) ) {
             $('.bg8').show();
         }
         event.preventDefault();
       });
-
-    
